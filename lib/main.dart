@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:gdsc_task/home/home_screen.dart';
 
+import 'check_network.dart';
 import 'login_screen/login_screen.dart';
 
 void main() {
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true
       ),
-      home: const LoginScreen(),
+      home: const HomeScreen(),
     );
   }
 }
